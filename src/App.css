@@ -1,0 +1,78 @@
+html {
+  font-family: "Roboto";
+  color: white;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.unique-form {
+  margin-top: 10%;
+  display: block;
+  width: 100vh;
+}
+
+.unique-form textarea {
+  display: block;
+  margin: auto;
+}
+
+.unique-form input {
+  margin-top: 10px;
+  background-color: #1DB954;
+  color: #ffffff;
+  transition-duration: 0.4s;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+.unique-form input:hover {
+  background-color: #1DB954; /* Green */
+  color: white;
+}
+
+.unique-form p {
+  display: block;
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
